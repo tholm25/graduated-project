@@ -32,7 +32,8 @@ Tạo Khóa Ứng Dụng Chạy lệnh sau để tạo khóa ứng dụng:
 
 Chạy Migrations Chạy lệnh sau để tạo các bảng trong cơ sở dữ liệu:
 <!-- php artisan migrate -->
-
+Chạy Ứng Dụng (pull code dùng cái này là chạy được)
+<!-- php artisan serve -->
 Cấu Trúc Thư Mục
 app/: Chứa mã nguồn chính của ứng dụng, bao gồm controllers, models và các logic nghiệp vụ khác.
 bootstrap/: Chứa file khởi động ứng dụng và cấu hình autoloading.
@@ -42,8 +43,7 @@ public/: Chứa các file công khai như CSS, JavaScript và file index.php.
 resources/: Chứa views (Blade templates), CSS, và JavaScript.
 routes/: Định nghĩa các route cho ứng dụng.
 storage/: Lưu trữ các file tạm thời, log, cache và session.
-Chạy Ứng Dụng
-<!-- php artisan serve -->
+
 
 
 Mở trình duyệt và truy cập vào http://localhost:8000 để xem ứng dụng.
