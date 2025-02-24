@@ -1,3 +1,58 @@
+# Tên Dự Án
+
+Một mô tả ngắn gọn về dự án của mình.
+
+## Yêu Cầu Hệ Thống
+
+- PHP >= 7.3
+- Composer
+- Node.js và npm
+
+## Cài Đặt
+
+1. **Clone Repository**
+
+
+   <!-- git clone https://github.com/hunghung12092005/project_graduate -->
+   <!-- cd project -->
+Cài Đặt Các Phụ Thuộc Chạy lệnh sau để cài đặt các phụ thuộc PHP:
+
+
+<!-- composer install -->
+Chạy lệnh sau để cài đặt các phụ thuộc JavaScript:
+bash
+
+<!-- npm install -->
+Cấu Hình File Môi Trường Sao chép file .env.example thành .env:
+
+<!-- cp .env.example .env -->
+Chỉnh sửa file .env để cấu hình các thông tin kết nối cơ sở dữ liệu và các thông tin khác.
+Tạo Khóa Ứng Dụng Chạy lệnh sau để tạo khóa ứng dụng:
+<!-- php artisan key:generate -->
+
+Chạy Migrations Chạy lệnh sau để tạo các bảng trong cơ sở dữ liệu:
+<!-- php artisan migrate -->
+
+Cấu Trúc Thư Mục
+app/: Chứa mã nguồn chính của ứng dụng, bao gồm controllers, models và các logic nghiệp vụ khác.
+bootstrap/: Chứa file khởi động ứng dụng và cấu hình autoloading.
+config/: Chứa các file cấu hình cho ứng dụng.
+database/: Chứa migrations và seeders cho cơ sở dữ liệu.
+public/: Chứa các file công khai như CSS, JavaScript và file index.php.
+resources/: Chứa views (Blade templates), CSS, và JavaScript.
+routes/: Định nghĩa các route cho ứng dụng.
+storage/: Lưu trữ các file tạm thời, log, cache và session.
+Chạy Ứng Dụng
+<!-- php artisan serve -->
+
+
+Mở trình duyệt và truy cập vào http://localhost:8000 để xem ứng dụng.
+
+
+
+
+
+<!-- mấy cái này nó có sẵn k quan tâm -->
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
