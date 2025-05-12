@@ -1,3 +1,3 @@
 <template>
-đây là home
+    Đây là home
 </template>
